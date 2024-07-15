@@ -1,0 +1,120 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+/* afor all */
+.orrange
+{
+    color: #FD6F00;
+    
+}
+
+.btn-primary
+{
+    background-color: #FD6F00;
+    color: white;
+    padding: 15px 20px;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    max-width:1230px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    
+}
+
+.header-section
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+} 
+
+.nav-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-section .nav{
+    margin-left: 30px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo
+{
+    font-weight: 700;
+}
+
+.nav{
+    font-size: 1rem;
+}
+/* Bannar section design */
+
+.banner
+
+{
+    max-width: 1230px;
+    margin: 30px auto;
+    /* border: 1px solid yellow; */
+}
+
+
+.my-self{
+    margin: 30px 30px;
+}
+
+.my-text h1{
+    line-height: 1.5;
+}
+
+.my-text p
+{
+    
+    font-size: 13px;
+    color: #e0c8c8;
+}
+.short-icon
+{
+    margin-top: 10px;
+}
+
+.my-btn
+{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 15px;
+    width:20%;
+}
+/* query for nav section */
+@media screen  and (max-width:576px)
+{
+
+    .header-section,.nav-section
+    {
+        flex-direction: column;
+    }
+    .nav-section,.nav-section>.nav{
+        margin-top: 20px;
+    }
+
+    
+}
