@@ -1,6 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background-color:#222;
     color: white;
 
 }
@@ -104,11 +104,67 @@ header
     border-radius: 15px;
     width:20%;
 }
+
+
+/* Award section design */
+
+
+.awards-section {
+    text-align: center;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 30px;
+    
+}
+
+.award {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.award-title {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.award-body {
+    font-size: 0.7rem;
+    color: #ddd;
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.award-category {
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+
+
+
 /* query for nav section */
 @media screen  and (max-width:576px)
 {
 
-    .header-section,.nav-section
+    .header-section,.nav-section,.award
     {
         flex-direction: column;
     }
