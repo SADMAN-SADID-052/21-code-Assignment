@@ -324,12 +324,13 @@ textarea {
     .nav-section,
     .award,
     
-    .form-group 
+    .form-group ,
+    .experience-section
     {
         flex-direction: column;
     }
 
-    .form-group input
+    .form-group input,.experience-content 
     {
         width: 100%;
     } 
