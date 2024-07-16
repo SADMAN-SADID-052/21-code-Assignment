@@ -17,7 +17,8 @@ body{
     background-color: #FD6F00;
     color: white;
     padding: 15px 20px;
-
+    border: 0;
+    border-radius: 5px;
 }
 
 *
@@ -156,6 +157,98 @@ header
     font-size: 0.9em;
     color: #bbb;
 }
+
+/* Form section design
+ */
+
+.contact-section {
+    
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    
+}
+
+.contact-section>h1,.contact-section>h2{
+    text-align: center;
+}
+
+.small-title {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.main-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #3b2618;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 48%;
+    padding: 10px;
+    font-size: 1em;
+    border: 0;
+    border-bottom: 3px solid white;
+    background-color:#3b2618 ;
+    font-weight: 600;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border: 0;
+    border-bottom: 3px solid white;
+    background-color:#3b2618;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+
+
+.file-input {
+    margin-bottom: 20px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+    
+}
+
+
+.submit-btn:hover {
+    background-color: #e55a00;
+}
+
 
 
 
