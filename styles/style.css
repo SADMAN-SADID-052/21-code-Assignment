@@ -107,6 +107,69 @@ header
 }
 
 
+/* Experience section design */
+
+
+
+.experience-section {
+    display: flex;
+    /* justify-content: space-evenly; */
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(to right, #2c2c2c, #1c1c1c);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.experience-content {
+    width: 50%;
+
+}
+
+.small-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.experience-list {
+    width: 50%;
+    margin-left: 70px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+
+}
+
+.experience-date {
+    font-size: 1em;
+    color: #bbb;
+    margin-bottom: 5px;
+}
+
+.experience-role {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.experience-company {
+    font-size: 1em;
+    color: #888;
+}
+
+
 /* Award section design */
 
 
@@ -257,10 +320,19 @@ textarea {
 @media screen  and (max-width:576px)
 {
 
-    .header-section,.nav-section,.award
+    .header-section,
+    .nav-section,
+    .award,
+    
+    .form-group 
     {
         flex-direction: column;
     }
+
+    .form-group input
+    {
+        width: 100%;
+    } 
     .nav-section,.nav-section>.nav{
         margin-top: 20px;
     }
