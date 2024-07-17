@@ -573,7 +573,10 @@ textarea {
     .experience-section,
     .nav-links,
     .case-study,
-    .categories
+    .categories,
+    .my-self-container,
+    .about-section
+
 
     {
         flex-direction: column;
@@ -583,8 +586,37 @@ textarea {
     {
         width: 100%;
     } 
+
+
+    .about-text
+    {
+        padding: 0;
+        width: 100%;
+    }
     .nav-section,.nav-section>.nav,.content{
         margin-top: 20px;
+    }
+    
+    .social-network
+    {
+        margin-left: 100px;
+    } 
+    .my-image 
+    {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    }
+
+    .my-btn
+    {
+        margin-right: 15px;
+    }
+
+    .about-experience
+    {
+        margin-top: 30px;
+        
     }
 
     
